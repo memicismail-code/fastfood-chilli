@@ -7,196 +7,196 @@ const menuData = [
         name: 'Doner mali',
         desc: '(pecivo, junetina - piletina, chili sos, bijeli sos, salata)',
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '2',
         name: 'Doner veliki',
         desc: '(pecivo, junetina - piletina, chili sos, bijeli sos, salata)',
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '3',
         name: 'Doner box veliki',
         desc: '(junetina - piletina, chili sos, bijeli sos, salata)',
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '4',
         name: 'Doner box + pomfrit',
         desc: '',
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1532634832-68393e8e9e14?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '5',
         name: 'Durum giros tortilja',
         desc: '(tortilja, junetina - piletina, chili sos, bijeli sos, salata)',
         price: 7.00,
-        image: 'https://images.unsplash.com/photo-1628191139360-40835e4d03fd?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1628191139360-40835e4d03fd?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '6',
         name: 'Bosanski sendvič',
         desc: '(pecivo, goveđa pečenica, sudžuka, namazi)',
         price: 5.00,
-        image: 'https://images.unsplash.com/photo-1524338785184-10a1bd93c39a?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1509722747041-0742d1306197?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '7',
         name: 'Hot Dog',
         desc: '(pecivo, hrenovka Wudy, namazi)',
         price: 3.00,
-        image: 'https://images.unsplash.com/photo-1541214113241-21578d2d9b62?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1541214113241-21578d2d9b62?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '8',
         name: 'Chili kobasice u sosu',
         desc: '',
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1532634832-68393e8e9e14?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1544333346-6071477df506?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '9',
         name: 'Hamburger',
         desc: '(pecivo, pljeskavica, namazi, salata)',
         price: 5.00,
-        image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '10',
         name: 'Cheeseburger',
         desc: '(pecivo, pljeskavica, trapist, namazi, salata)',
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '11',
         name: 'Double Burger',
         desc: '(pecivo, 2 x pljeskavica, namazi, salata)',
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '12',
         name: 'Double Cheeseburger',
         desc: '(pecivo, 2 x pljeskavica, 2 x trapist, namazi, salata)',
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '13',
         name: 'Double Cheeseburger u prušcanović lepini',
         desc: '(lepina, 2 x pljeskavica, 2 x trapist, namazi, salata)',
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '14',
         name: 'Pljeskavica mala + pomfrit',
         desc: '(pljeskavica, pomfrit, namazi, salata, pecivo)',
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '15',
         name: 'Pljeskavica velika + pomfrit',
         desc: '(2 x pljeskavica, pomfrit, namazi, salata, pecivo)',
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '16',
         name: 'Pljeskavica velika + kajmak',
         desc: '',
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '17',
         name: 'Pileći ražnjići čili + pomfrit',
         desc: '(pileći ražnjići, pomfrit, čili, namazi, salata, pecivo)',
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '18',
         name: 'Čiken',
         desc: '(pileće meso, namazi, salata, pecivo)',
         price: 5.00,
-        image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '19',
         name: 'Čiken veliki',
         desc: '',
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1513639725746-c563c8f2269e?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '20',
         name: 'Grilovana piletina + pomfrit',
         desc: '(pileće meso, pomfrit, namazi, salata, pecivo)',
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '21',
         name: 'Otkošteni batak karabatak + pomfrit',
         desc: '(otkošteni pileći batak, pomfrit, namazi, salata, pecivo)',
         price: 7.00,
-        image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '22',
         name: 'Pileća salata',
         desc: '',
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '23',
         name: 'Lepina Pruščanović, domaći kajmak',
         desc: '',
         price: 5.00,
-        image: 'https://images.unsplash.com/photo-1598511726623-d30900350731?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1598511726623-d30900350731?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '24',
         name: 'Lepina Pruščanović, domaći kajmak + suho meso',
         desc: '',
         price: 7.00,
-        image: 'https://images.unsplash.com/photo-1598511726623-d30900350731?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1626132646545-36423cc81a07?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '25',
         name: 'Pomfrit',
         desc: '(namazi po izboru)',
         price: 3.00,
-        image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '26',
         name: 'Pekarski krompir u sosu',
         desc: '',
         price: 4.00,
-        image: 'https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '27',
         name: 'Dodatna lepina',
         desc: '',
         price: 2.00,
-        image: 'https://images.unsplash.com/photo-1598511726623-d30900350731?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1593560734541-584a822ad16c?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '28',
         name: 'Kupus/sezonska salata',
         desc: '',
         price: 3.00,
-        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=400'
+        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=600'
     }
 ];
 
