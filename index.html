@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Chilli | Delivery</title>
+    <meta name="description"
+        content="Naručite najbolju brzu hranu u gradu. Fast Food Chilli - Doneri, Burgeri, i još mnogo toga!">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <i class="ph ph-pepper"></i>
+                Chilli
+            </a>
+            <div class="nav-links">
+                <a href="#menu" class="nav-link">Jelovnik</a>
+                <a href="https://www.instagram.com/fast_food_chilli/reels/" target="_blank" class="nav-link icon-link"
+                    title="Instagram">
+                    <i class="ph ph-instagram-logo"></i>
+                </a>
+                <button id="cart-btn" class="cart-toggle">
+                    <i class="ph ph-shopping-bag"></i>
+                    <span id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle">Branilaca Bosne bb /kod stare Opštine/</span>
+            <h1 class="hero-title">Osjeti <span>Razliku</span></h1>
+            <p class="hero-text">Najbolji doneri i burgeri. Naručite online za brzu dostavu.</p>
+            <div class="hero-cta">
+                <a href="#menu" class="btn btn-primary">Naruči Odmah <i class="ph ph-arrow-right"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Naš Jelovnik</h2>
+                    <p>Izaberi svoje omiljeno jelo s našeg bogatog menija.</p>
+                </div>
+
+                <!-- Category Filters (Optional for later, but good to have structural wrapper) -->
+                <!-- <div class="menu-filters">
+                    <button class="filter-btn active" data-filter="all">Sve</button>
+                </div> -->
+
+                <div id="menu-grid" class="menu-grid">
+                    <!-- Menu items will be injected here by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="brand-logo"><i class="ph ph-pepper"></i> Chilli</h3>
+                    <p>Branilaca Bosne bb /kod stare Opštine/</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.instagram.com/fast_food_chilli/reels/" target="_blank" class="social-link">
+                        <i class="ph ph-instagram-logo"></i> Prati nas na Instagramu
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Fast Food Chilli. Sva prava zadržana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar / Modal Overlay -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h2>Tvoja Korpa</h2>
+            <button class="close-btn" id="close-cart"><i class="ph ph-x"></i></button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items injected here -->
+            <div class="empty-cart-message">
+                <i class="ph ph-shopping-cart-simple"></i>
+                <p>Korpa je prazna</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Ukupno:</span>
+                <span id="cart-total-price">0.00 KM</span>
+            </div>
+            <button class="btn btn-primary btn-full checkout-btn" id="checkout-btn">Završi Narudžbu (WhatsApp)</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
