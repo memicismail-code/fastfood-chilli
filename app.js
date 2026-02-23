@@ -182,7 +182,7 @@ const menuData = [
         name: 'Pekarski krompir u sosu',
         desc: '',
         price: 4.00,
-        image: 'https://images.unsplash.com/photo-1603048588665-791ca8aea617?auto=format&fit=crop&q=80&w=600'
+        image: ''
     },
     {
         id: '27',
@@ -237,10 +237,14 @@ function renderMenu() {
     menuData.forEach(item => {
         const card = document.createElement('article');
         card.className = 'menu-card';
-        card.innerHTML = `
+
+        const imageHtml = item.image ? `
             <div class="card-image">
                 <img src="${item.image}" alt="${item.name}" loading="lazy">
-            </div>
+            </div>` : '';
+
+        card.innerHTML = `
+            ${imageHtml}
             <div class="card-body">
                 <div class="card-header">
                     <h3 class="card-title">${item.name}</h3>
