@@ -54,196 +54,196 @@ const menuData = [
         name: { bs: 'Doner mali', en: 'Small Doner' },
         desc: { bs: '(pecivo, junetina - piletina, chili sos, bijeli sos, salata)', en: '(bun, beef - chicken, chili sauce, white sauce, salad)' },
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=600&auto=format'
     },
     {
         id: '2',
         name: { bs: 'Doner veliki', en: 'Large Doner' },
         desc: { bs: '(pecivo, junetina - piletina, chili sos, bijeli sos, salata)', en: '(bun, beef - chicken, chili sauce, white sauce, salad)' },
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1662116765994-1e4200c43085?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=800&auto=format'
     },
     {
         id: '3',
         name: { bs: 'Doner box veliki', en: 'Large Doner Box' },
         desc: { bs: '(junetina - piletina, chili sos, bijeli sos, salata)', en: '(beef - chicken, chili sauce, white sauce, salad)' },
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?q=80&w=600&auto=format'
     },
     {
         id: '4',
         name: { bs: 'Doner box + pomfrit', en: 'Doner Box + Fries' },
         desc: { bs: '', en: '' },
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1532634832-68393e8e9e14?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?q=80&w=600&auto=format'
     },
     {
         id: '5',
         name: { bs: 'Durum giros tortilja', en: 'Durum Gyros Tortilla' },
         desc: { bs: '(tortilja, junetina - piletina, chili sos, bijeli sos, salata)', en: '(tortilla, beef - chicken, chili sauce, white sauce, salad)' },
         price: 7.00,
-        image: 'https://images.unsplash.com/photo-1628191139360-40835e4d03fd?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1628191139360-40835e4d03fd?q=80&w=600&auto=format'
     },
     {
         id: '6',
         name: { bs: 'Bosanski sendvič', en: 'Bosnian Sandwich' },
         desc: { bs: '(pecivo, goveđa pečenica, sudžuka, namazi)', en: '(bun, beef prosciutto, sausage, spreads)' },
         price: 5.00,
-        image: 'https://images.unsplash.com/photo-1509722747041-0742d1306197?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1553909489-cd47e0907980?q=80&w=600&auto=format'
     },
     {
         id: '7',
         name: { bs: 'Hot Dog', en: 'Hot Dog' },
         desc: { bs: '(pecivo, hrenovka Wudy, namazi)', en: '(bun, Wudy hot dog, spreads)' },
         price: 3.00,
-        image: 'https://images.unsplash.com/photo-1541214113241-21578d2d9b62?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1541214113241-21578d2d9b62?q=80&w=600&auto=format'
     },
     {
         id: '8',
         name: { bs: 'Chili kobasice u sosu', en: 'Chili Sausages in Sauce' },
         desc: { bs: '', en: '' },
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1544333346-6071477df506?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?q=80&w=600&auto=format'
     },
     {
         id: '9',
         name: { bs: 'Hamburger', en: 'Hamburger' },
         desc: { bs: '(pecivo, pljeskavica, namazi, salata)', en: '(bun, patty, spreads, salad)' },
         price: 5.00,
-        image: 'https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format'
     },
     {
         id: '10',
         name: { bs: 'Cheeseburger', en: 'Cheeseburger' },
         desc: { bs: '(pecivo, pljeskavica, trapist, namazi, salata)', en: '(bun, patty, cheese, spreads, salad)' },
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=600&auto=format'
     },
     {
         id: '11',
         name: { bs: 'Double Burger', en: 'Double Burger' },
         desc: { bs: '(pecivo, 2 x pljeskavica, namazi, salata)', en: '(bun, 2 x patty, spreads, salad)' },
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1586816001966-79b736744398?q=80&w=600&auto=format'
     },
     {
         id: '12',
         name: { bs: 'Double Cheeseburger', en: 'Double Cheeseburger' },
         desc: { bs: '(pecivo, 2 x pljeskavica, 2 x trapist, namazi, salata)', en: '(bun, 2 x patty, 2 x cheese, spreads, salad)' },
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1456327192253-8dd7f1007324?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=600&auto=format'
     },
     {
         id: '13',
         name: { bs: 'Double Cheeseburger u prušcanović lepini', en: 'Double Cheeseburger in Prušcanović Bun' },
         desc: { bs: '(lepina, 2 x pljeskavica, 2 x trapist, namazi, salata)', en: '(flatbread, 2 x patty, 2 x cheese, spreads, salad)' },
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1542574271-7f3b92e6c821?q=80&w=600&auto=format'
     },
     {
         id: '14',
         name: { bs: 'Pljeskavica mala + pomfrit', en: 'Small Patty + Fries' },
         desc: { bs: '(pljeskavica, pomfrit, namazi, salata, pecivo)', en: '(patty, fries, spreads, salad, bun)' },
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1536819114556-1e10f967fb61?q=80&w=600&auto=format'
     },
     {
         id: '15',
         name: { bs: 'Pljeskavica velika + pomfrit', en: 'Large Patty + Fries' },
         desc: { bs: '(2 x pljeskavica, pomfrit, namazi, salata, pecivo)', en: '(2 x patty, fries, spreads, salad, bun)' },
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=600&auto=format'
     },
     {
         id: '16',
         name: { bs: 'Pljeskavica velika + kajmak', en: 'Large Patty + Cream Cheese' },
         desc: { bs: '', en: '' },
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1521305916504-4a1121188589?q=80&w=600&auto=format'
     },
     {
         id: '17',
         name: { bs: 'Pileći ražnjići čili + pomfrit', en: 'Chili Chicken Skewers + Fries' },
         desc: { bs: '(pileći ražnjići, pomfrit, čili, namazi, salata, pecivo)', en: '(chicken skewers, fries, chili, spreads, salad, bun)' },
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?q=80&w=600&auto=format'
     },
     {
         id: '18',
         name: { bs: 'Čiken', en: 'Chicken Burger' },
         desc: { bs: '(pileće meso, namazi, salata, pecivo)', en: '(chicken meat, spreads, salad, bun)' },
         price: 5.00,
-        image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=600&auto=format'
     },
     {
         id: '19',
         name: { bs: 'Čiken veliki', en: 'Large Chicken Burger' },
         desc: { bs: '', en: '' },
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1513639725746-c563c8f2269e?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1513639725746-c563c8f2269e?q=80&w=600&auto=format'
     },
     {
         id: '20',
         name: { bs: 'Grilovana piletina + pomfrit', en: 'Grilled Chicken + Fries' },
         desc: { bs: '(pileće meso, pomfrit, namazi, salata, pecivo)', en: '(chicken meat, fries, spreads, salad, bun)' },
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1632778149975-420e0e75ee08?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=600&auto=format'
     },
     {
         id: '21',
         name: { bs: 'Otkošteni batak karabatak + pomfrit', en: 'Boneless Chicken Thigh + Fries' },
         desc: { bs: '(otkošteni pileći batak, pomfrit, namazi, salata, pecivo)', en: '(boneless chicken thigh, fries, spreads, salad, bun)' },
         price: 7.00,
-        image: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=600&auto=format'
     },
     {
         id: '22',
         name: { bs: 'Pileća salata', en: 'Chicken Salad' },
         desc: { bs: '', en: '' },
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=600&auto=format'
     },
     {
         id: '23',
         name: { bs: 'Lepina Pruščanović, domaći kajmak', en: 'Pruščanović Bun, Homemade Cream' },
         desc: { bs: '', en: '' },
         price: 5.00,
-        image: 'https://images.unsplash.com/photo-1598511726623-d30900350731?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1598511726623-d30900350731?q=80&w=600&auto=format'
     },
     {
         id: '24',
         name: { bs: 'Lepina Pruščanović, domaći kajmak + suho meso', en: 'Pruščanović Bun, Cream + Smoked Meat' },
         desc: { bs: '', en: '' },
         price: 7.00,
-        image: 'https://images.unsplash.com/photo-1626132646545-36423cc81a07?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1626132646545-36423cc81a07?q=80&w=600&auto=format'
     },
     {
         id: '25',
         name: { bs: 'Pomfrit', en: 'French Fries' },
         desc: { bs: '(namazi po izboru)', en: '(spreads of choice)' },
         price: 3.00,
-        image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=600&auto=format'
     },
     {
         id: '26',
         name: { bs: 'Pekarski krompir u sosu', en: 'Baked Potatoes in Sauce' },
         desc: { bs: '', en: '' },
         price: 4.00,
-        image: 'https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=600&auto=format'
     },
     {
         id: '27',
         name: { bs: 'Dodatna lepina', en: 'Extra Bun' },
         desc: { bs: '', en: '' },
         price: 2.00,
-        image: 'https://images.unsplash.com/photo-1593560734541-584a822ad16c?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1593560734541-584a822ad16c?q=80&w=600&auto=format'
     },
     {
         id: '28',
         name: { bs: 'Kupus/sezonska salata', en: 'Cabbage/Seasonal Salad' },
         desc: { bs: '', en: '' },
         price: 3.00,
-        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&auto=format'
     }
 ];
 
