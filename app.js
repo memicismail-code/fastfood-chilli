@@ -152,14 +152,14 @@ const menuData = [
         name: { bs: 'Pljeskavica velika + pomfrit', en: 'Large Patty + Fries' },
         desc: { bs: '(2 x pljeskavica, pomfrit, namazi, salata, pecivo)', en: '(2 x patty, fries, spreads, salad, bun)' },
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '16',
         name: { bs: 'Pljeskavica velika + kajmak', en: 'Large Patty + Cream Cheese' },
         desc: { bs: '', en: '' },
         price: 10.00,
-        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '17',
