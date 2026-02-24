@@ -273,6 +273,24 @@ h2 {
     border: 2px solid var(--color-bg);
 }
 
+.lang-btn {
+    background: white;
+    border: 1px solid var(--color-border);
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--color-text);
+}
+
+.lang-btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
 /* 
     =============
     Hero Section

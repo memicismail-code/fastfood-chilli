@@ -31,11 +31,12 @@
                 Chilli
             </a>
             <div class="nav-links">
-                <a href="#menu" class="nav-link">Jelovnik</a>
+                <a href="#menu" class="nav-link" data-i18n="nav_menu">Jelovnik</a>
                 <a href="https://www.instagram.com/fast_food_chilli/reels/" target="_blank" class="nav-link icon-link"
                     title="Instagram">
                     <i class="ph ph-instagram-logo"></i>
                 </a>
+                <button id="lang-toggle" class="lang-btn">EN</button>
                 <button id="cart-btn" class="cart-toggle">
                     <i class="ph ph-shopping-bag"></i>
                     <span id="cart-count">0</span>
@@ -48,11 +49,12 @@
     <header class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <span class="hero-subtitle">Branilaca Bosne bb /kod stare Opštine/</span>
-            <h1 class="hero-title">Osjeti <span>Razliku</span></h1>
-            <p class="hero-text">Najbolji doneri i burgeri. Naručite online za brzu dostavu.</p>
+            <span class="hero-subtitle" data-i18n="hero_subtitle">Branilaca Bosne bb /kod stare Opštine/</span>
+            <h1 class="hero-title" data-i18n="hero_title">Osjeti <span>Razliku</span></h1>
+            <p class="hero-text" data-i18n="hero_text">Najbolji doneri i burgeri. Naručite online za brzu dostavu.</p>
             <div class="hero-cta">
-                <a href="#menu" class="btn btn-primary">Naruči Odmah <i class="ph ph-arrow-right"></i></a>
+                <a href="#menu" class="btn btn-primary" data-i18n="hero_cta">Naruči Odmah <i
+                        class="ph ph-arrow-right"></i></a>
             </div>
         </div>
     </header>
@@ -63,8 +65,8 @@
         <section id="menu" class="menu-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Naš Jelovnik</h2>
-                    <p>Izaberi svoje omiljeno jelo s našeg bogatog menija.</p>
+                    <h2 data-i18n="section_title">Naš Jelovnik</h2>
+                    <p data-i18n="section_subtitle">Izaberi svoje omiljeno jelo s našeg bogatog menija.</p>
                 </div>
 
                 <!-- Category Filters (Optional for later, but good to have structural wrapper) -->
@@ -85,7 +87,7 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <h3 class="brand-logo"><i class="ph ph-pepper"></i> Chilli</h3>
-                    <p>Branilaca Bosne bb /kod stare Opštine/</p>
+                    <p data-i18n="hero_subtitle">Branilaca Bosne bb /kod stare Opštine/</p>
                 </div>
                 <div class="footer-links">
                     <a href="https://www.instagram.com/fast_food_chilli/reels/" target="_blank" class="social-link">
@@ -94,7 +96,8 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <span id="year"></span> Fast Food Chilli. Sva prava zadržana.</p>
+                <p>&copy; <span id="year"></span> Fast Food Chilli. <span data-i18n="footer_rights">Sva prava
+                        zadržana.</span></p>
             </div>
         </div>
     </footer>
@@ -103,24 +106,26 @@
     <div class="cart-overlay" id="cart-overlay"></div>
     <div class="cart-sidebar" id="cart-sidebar">
         <div class="cart-header">
-            <h2>Tvoja Korpa</h2>
+            <h2 data-i18n="cart_title">Tvoja Korpa</h2>
             <button class="close-btn" id="close-cart"><i class="ph ph-x"></i></button>
         </div>
         <div class="cart-items" id="cart-items">
             <!-- Cart items injected here -->
             <div class="empty-cart-message">
                 <i class="ph ph-shopping-cart-simple"></i>
-                <p>Korpa je prazna</p>
+                <p data-i18n="cart_empty">Korpa je prazna</p>
             </div>
         </div>
         <div class="cart-footer">
             <div class="cart-total">
-                <span>Ukupno:</span>
+                <span data-i18n="cart_total">Ukupno:</span>
                 <span id="cart-total-price">0.00 KM</span>
             </div>
-            <button class="btn btn-primary btn-full checkout-btn" id="checkout-btn">Završi Narudžbu (WhatsApp)</button>
+            <button class="btn btn-primary btn-full checkout-btn" id="checkout-btn" data-i18n="checkout_btn">Završi
+                Narudžbu (WhatsApp)</button>
         </div>
     </div>
+
 
     <script src="app.js"></script>
 </body>
