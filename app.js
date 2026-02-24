@@ -61,7 +61,7 @@ const menuData = [
         name: { bs: 'Doner veliki', en: 'Large Doner' },
         desc: { bs: '(pecivo, junetina - piletina, chili sos, bijeli sos, salata)', en: '(bun, beef - chicken, chili sauce, white sauce, salad)' },
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1662116765994-1e4200c43085?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '3',
@@ -131,7 +131,7 @@ const menuData = [
         name: { bs: 'Double Cheeseburger', en: 'Double Cheeseburger' },
         desc: { bs: '(pecivo, 2 x pljeskavica, 2 x trapist, namazi, salata)', en: '(bun, 2 x patty, 2 x cheese, spreads, salad)' },
         price: 8.00,
-        image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1456327192253-8dd7f1007324?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '13',
@@ -145,7 +145,7 @@ const menuData = [
         name: { bs: 'Pljeskavica mala + pomfrit', en: 'Small Patty + Fries' },
         desc: { bs: '(pljeskavica, pomfrit, namazi, salata, pecivo)', en: '(patty, fries, spreads, salad, bun)' },
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '15',
@@ -187,7 +187,7 @@ const menuData = [
         name: { bs: 'Grilovana piletina + pomfrit', en: 'Grilled Chicken + Fries' },
         desc: { bs: '(pileće meso, pomfrit, namazi, salata, pecivo)', en: '(chicken meat, fries, spreads, salad, bun)' },
         price: 6.00,
-        image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1632778149975-420e0e75ee08?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '21',
