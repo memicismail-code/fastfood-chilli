@@ -236,7 +236,7 @@ const menuData = [
         name: { bs: 'Dodatna lepina', en: 'Extra Bun' },
         desc: { bs: '', en: '' },
         price: 2.00,
-        image: 'https://images.unsplash.com/photo-1593560734541-584a822ad16c?auto=format&fit=crop&q=80&w=600'
+        image: 'https://piovariations.cdn.podravka.net/fa260648-63db-11eb-ad57-0242ac12003d/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp'
     },
     {
         id: '28',
