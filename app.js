@@ -229,7 +229,7 @@ const menuData = [
         name: { bs: 'Pekarski krompir u sosu', en: 'Baked Potatoes in Sauce' },
         desc: { bs: '', en: '' },
         price: 4.00,
-        image: 'https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&q=80&w=600'
+        image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&q=80&w=600'
     },
     {
         id: '27',
